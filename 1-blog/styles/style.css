@@ -3,10 +3,27 @@ body {
     background: linear-gradient(180deg, #374151 0%, #111827 82.6%, #121928 100%); 
     font-family: Roboto;
     font-weight: 400;
+    margin: 0;
 }
 
 header {
-    margin: 0 0 69px 0;
+    margin: 78px 0 69px 0;
+}
+
+#logo {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    color: #FFFFFF;
+    box-shadow: 0px 15px 30px 0px #00000026;
+    background: #4B5563;
+    border-radius: 3px;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 h1 {
@@ -29,24 +46,26 @@ a {
 p {
     font-size: 16px;
     line-height: 30px;
-    margin: 0 0 20px 0;
+    margin: 0;
 }
 
 footer {
     color: #acb1b7;
     font-size: 16px;
     line-height: 28px;
-    margin:0 0 0 0;
+    margin:0;
     padding: 76px;
 }
 
 footer p {
-    margin: 0 0 0 0;
+    margin: 0 auto;
+    text-align: center;
 }
 
 img {
     margin: 28px 0 69px 0;
 }
+
 #site-search {
     height: 40px;
     width: 224px;
@@ -65,10 +84,21 @@ img {
     color: a9adb3;
 }
 
-p.first {
-    font-size: 20px;
+.content {
+    max-width: 708px; /* ограничиваем размер блока */
+    margin: 0 auto; /* left and right = auto, top and bottom = 0, тем самым выставляем по центру */
+}
+.content p {
+   margin-bottom: 38px;
+   line-height: 30px;
+}
+
+.content p:first-child {
+    font-size: 20px; 
     line-height: 32px;
-    margin-top: 0;
+} 
+.content p:last-child {
+   margin-bottom: unset;
 }
 
 .meta {

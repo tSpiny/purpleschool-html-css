@@ -1,0 +1,97 @@
+body {
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #374151 0%, #111827 82.6%, #121928 100%); 
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+header {
+    margin: 0 0 69px 0;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 38px;
+    margin: 0 0 30px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0 0 20px 0;
+}
+
+footer {
+    color: #acb1b7;
+    font-size: 16px;
+    line-height: 28px;
+    height: 105px;
+    margin:103px 0 0 0;  
+}
+
+img {
+    margin: 28px 0 69px 0;
+}
+#site-search {
+    height: 40px;
+    width: 224px;
+    border-radius: 100px;
+    background: #283241;
+    border: 0;
+    text-indent: 49px;
+    color:#FFFFFF 
+}
+
+#site-search::placeholder {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: a9adb3;
+}
+
+p.first {
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 0;
+}
+
+.meta {
+    color: #acb1b7;
+    font-size: 14px;
+    line-height: 16.41px;
+    margin: 0 0 14px 0;
+}
+
+.author-img {
+    margin: 0 0 0 0;
+}
+
+.hero-link {
+    font-size: 18px;
+    line-height: 21.09px;
+}
+
+.author-name {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 0 0 0;
+}
+
+.author-job {
+    font-size: 14px;
+    line-height: 28px;
+    color: #acb1b7;
+    margin: 0 0 0 0;
+}

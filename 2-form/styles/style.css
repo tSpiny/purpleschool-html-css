@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(0deg, #F39494, #F39494),
+                linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%),
+                linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%);
+}
+
+form {
+    background-color: #FFFEFE;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49.03px;
+}
+
+form > p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color:#666666;
+}
+
+a {
+    color: #089FE0;
+}
+
+input {
+    line-height: 21.79px;
+    caret-color: #089FE0;
+    caret-shape: 1px solid #089FE0;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border: solid;
+    border-width: 1px;
+    border-color: #F5F5F5;
+    outline: none;
+}
+
+input::placeholder {
+    font-style: italic;
+}
+
+input:focus {
+    background-color: #F5F5F5;
+}
+
+button {
+    background-color: #089FE0;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+    border: none;
+}
+
+input[type=checkbox] {
+    background-color: f5f5f5; 
+
+
+label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    color: rgba(102, 102, 102, 1);
+}
+

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration</title>
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <main>
@@ -35,8 +36,11 @@
         <div><input type="email" placeholder="E-mail" required /></div>
         <button type="submit">Зарегистрироваться</button>
         <div>
-          <input type="checkbox" required />Я прочитал и принимаю
-          <a href="#">Условия использования</a>
+          <input type="checkbox" class="checkbox" required id="checkbox" />
+          <label for="checkbox">
+            Я прочитал и принимаю
+            <a href="#">Условия использования</a>
+          </label>
         </div>
       </form>
     </main>

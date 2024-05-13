@@ -11,7 +11,7 @@
       <form action="#" id="form">
         <h1>Регистрация</h1>
         <p>Уже есть аккаунт? <a href="#">Войти</a></p>
-        <div>
+        <div class="form-style">
           <input
             type="text"
             id="company_name"
@@ -19,28 +19,36 @@
             value="Моя компания"
           />
         </div>
-        <div>
+        <div class="form-style">
           <input
             type="text"
             placeholder="Имя"
             pattern="^\D+$"
             title="Введите только буквенные значения"
+            id="name"
           />
           <input
             type="text"
             placeholder="Фамилия"
             pattern="^\D+$"
             title="Введите только буквенные значения"
+            id="surname"
           />
         </div>
-        <div><input type="email" placeholder="E-mail" required /></div>
-        <button type="submit">Зарегистрироваться</button>
+        <div class="form-style">
+          <input type="email" placeholder="E-mail" required />
+        </div>
+        <div class="form-style">
+          <button type="submit">Зарегистрироваться</button>
+        </div>
         <div>
-          <input type="checkbox" class="checkbox" required id="checkbox" />
-          <label for="checkbox">
-            Я прочитал и принимаю
-            <a href="#">Условия использования</a>
-          </label>
+          <div class="checkbox">
+            <input type="checkbox" required id="checkbox" />
+            <label for="checkbox">
+              Я прочитал и принимаю
+              <a href="#">Условия использования</a>
+            </label>
+          </div>
         </div>
       </form>
     </main>

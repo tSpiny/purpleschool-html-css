@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration</title>
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <main>
       <form action="#" id="form">
         <h1>Регистрация</h1>
         <p>Уже есть аккаунт? <a href="#">Войти</a></p>
-        <div>
+        <div class="form-style">
           <input
             type="text"
             id="company_name"
@@ -18,25 +19,35 @@
             value="Моя компания"
           />
         </div>
-        <div>
+        <div class="form-style">
           <input
             type="text"
             placeholder="Имя"
             pattern="^\D+$"
             title="Введите только буквенные значения"
-          />
-          <input
+            id="name"
+          /><input
             type="text"
             placeholder="Фамилия"
             pattern="^\D+$"
             title="Введите только буквенные значения"
+            id="surname"
           />
         </div>
-        <div><input type="email" placeholder="E-mail" required /></div>
-        <button type="submit">Зарегистрироваться</button>
+        <div class="form-style">
+          <input type="email" placeholder="E-mail" required />
+        </div>
+        <div class="form-style">
+          <button type="submit">Зарегистрироваться</button>
+        </div>
         <div>
-          <input type="checkbox" required />Я прочитал и принимаю
-          <a href="#">Условия использования</a>
+          <div class="checkbox">
+            <input type="checkbox" required id="checkbox" />
+            <label for="checkbox">
+              Я прочитал и принимаю
+              <a href="#">Условия использования</a>
+            </label>
+          </div>
         </div>
       </form>
     </main>

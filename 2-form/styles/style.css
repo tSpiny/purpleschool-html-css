@@ -1,0 +1,115 @@
+* {
+        box-sizing: border-box;
+}
+body {
+    background: linear-gradient(0deg, #F39494, #F39494),
+                linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%),
+                linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%);
+    margin: 0;
+}
+
+body, button, input {
+    font-family: 'Open Sans', sans-serif;   
+}
+
+body, button, input::placeholder {
+    font-weight: 400;
+}
+
+button {
+    background-color: #089FE0;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24.51px;
+    border: none;
+    border-radius: 5px;
+    height: 44px;
+    width: 394px;
+    margin: 0 0 22px 0;
+}
+
+input {
+    line-height: 21.79px;
+    caret-color: #089FE0;
+    caret-shape: 1px solid #089FE0;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    border: solid;
+    border-width: 1px;
+    border-color: #F5F5F5;
+    outline: none;
+}
+
+input::placeholder {
+    font-style: italic;
+}
+
+input:focus {
+    background-color: #F5F5F5;
+}
+
+input[type=checkbox] {
+    margin-left: 0;
+}
+
+form {
+    max-width: 582px;
+    background-color: #FFFEFE;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 72px 95px 91px 93px;
+    margin: 225px auto 0;
+    text-align: center;
+}
+
+form > p {
+    margin: 0 0 47px 0;
+    font-size: 18px;
+    line-height: 24.51px;
+    color:#666666;
+}
+
+h1 {
+    color: #333333;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49.03px;
+    margin: 0;
+}
+
+a {
+    color: #089FE0;
+}
+
+
+label {
+    font-size: 14px;
+    line-height: 19.07px;
+    color: rgba(102, 102, 102, 1);
+}
+
+#name {
+    width: 196px;
+    border-radius: 5px 0 0 5px;
+    margin-right: 1px;
+}
+
+#surname {
+    width: 196px;
+    border-radius: 0 5px 5px 0;
+}
+
+.checkbox {
+    text-align: start;
+}
+
+.form-style input {
+    max-height: 44px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0 0 21px 0;
+    padding: 9px 0;
+    text-indent: 11px;
+}
